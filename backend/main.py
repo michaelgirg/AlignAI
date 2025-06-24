@@ -1,5 +1,4 @@
-from fastapi import FastAPI, UploadFile, File
-import pdfplumber
+from fastapi import FastAPI
 
 app = FastAPI()
 
