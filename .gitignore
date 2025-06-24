@@ -1,13 +1,39 @@
-# Python
+# Python (FastAPI backend)
 venv/
 __pycache__/
-.env
-
-# Node/React
-node_modules/
+*.py[cod]
+*.so
+*.egg-info/
 dist/
+build/
+pip-log.txt
+pip-delete-this-directory.txt
 
-# System & Editor
+# Environment files (keep secrets safe)
+.env
+.env.*
+
+# React (frontend)
+node_modules/
+build/
+.cache/
+
+# AI/model/data artifacts
+*.pkl
+*.pt
+*.onnx
+*.h5
+*.csv
+*.jsonl
+
+# VS Code
 .vscode/
+
+# macOS / OS
 .DS_Store
+
+# Test/cache files
+__pycache__/
+.pytest_cache/
+.mypy_cache/
 *.log
